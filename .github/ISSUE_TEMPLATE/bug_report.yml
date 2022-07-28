@@ -34,7 +34,7 @@ body:
   - type: dropdown
     id: versions
     attributes:
-      label: Which version of the app are you using?
+      label: Which version of the tool are you using?
       description: If this issue is occurring on more than 1 version of the app, select the appropriate versions.
       multiple: true
       options:
