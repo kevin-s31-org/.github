@@ -2,7 +2,7 @@ name: 🐛Bug Report
 description: File a bug report here
 title: "[BUG]: "
 labels: ["bug"]
-#assignees: ["AnishDe12020"]
+#assignees: ["cs-engineering"]
 body:
   - type: markdown
     attributes:
@@ -31,20 +31,20 @@ body:
       placeholder: Please write the steps in a list form
     validations:
       required: true
-  - type: dropdown
-    id: versions
-    attributes:
-      label: Which version of the tool are you using?
-      description: If this issue is occurring on more than 1 version of the app, select the appropriate versions.
-      multiple: true
-      options:
-       - 1.0.0
-       - 1.1.0
-       - 1.2.0
-       - 2.0.0
-       - 2.1.0
-    validations:
-      required: false
+ # - type: dropdown
+ #   id: versions
+ #   attributes:
+ #     label: Which version of the tool are you using?
+ #     description: If this issue is occurring on more than 1 version of the app, select the appropriate versions.
+ #     multiple: true
+ #     options:
+ #      - 1.0.0
+ #      - 1.1.0
+ #      - 1.2.0
+ #      - 2.0.0
+ #      - 2.1.0
+ #   validations:
+ #     required: false
   - type: textarea
     id: additional-information
     attributes:
@@ -53,3 +53,4 @@ body:
         Provide any additional information such as logs, screenshots, likes, scenarios in which the bug occurs so that it facilitates resolving the issue.
     validations:
       required: false
+
